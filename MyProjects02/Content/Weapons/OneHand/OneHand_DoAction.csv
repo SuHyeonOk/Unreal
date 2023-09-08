@@ -1,0 +1,4 @@
+,Montage,PlayRatio,CanMove,FixedCamera
+1,/Script/Engine.AnimMontage'/Game/Character/Montages/OneHead/Sword_Attack_1_Montage.Sword_Attack_1_Montage',1.5,FALSE,FALSE
+2,/Script/Engine.AnimMontage'/Game/Character/Montages/OneHead/Sword_Attack_2_Montage.Sword_Attack_2_Montage',1.25,FALSE,FALSE
+3,/Script/Engine.AnimMontage'/Game/Character/Montages/OneHead/Sword_Attack_3_Montage.Sword_Attack_3_Montage',1.5,FALSE,FALSE
