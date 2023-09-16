@@ -1,0 +1,5 @@
+,Damage,Montage,PlatRatio,CanMove,Sound,ShakeClass,Effect,EffectLocation,EffectSacle,HitStop,Launch
+1,5,/Script/Engine.AnimMontage'/Game/Character/Montages/Common/HitReaction_Montage.HitReaction_Montage',1,FALSE,,,/Script/Engine.ParticleSystem'/Game/Effects/P_ky_hit_fire.P_ky_hit_fire',"(X=0,Y=0,Z=0)","(X=1,Y=1,Z=1)",0.05,700
+2,10,/Script/Engine.AnimMontage'/Game/Character/Montages/Common/HitReaction_Montage.HitReaction_Montage',1,FALSE,,,/Script/Engine.ParticleSystem'/Game/Effects/P_ky_hit_fire.P_ky_hit_fire',"(X=0,Y=0,Z=0)","(X=1,Y=1,Z=1)",0.075,700
+3,15,/Script/Engine.AnimMontage'/Game/Character/Montages/Common/HitReaction_Montage.HitReaction_Montage',1,FALSE,,,/Script/Engine.ParticleSystem'/Game/Effects/P_ky_hit_fire.P_ky_hit_fire',"(X=0,Y=0,Z=200)","(X=1,Y=1,Z=1)",0.1,1000
+4,20,/Script/Engine.AnimMontage'/Game/Character/Montages/Common/HitReaction_Montage.HitReaction_Montage',1,FALSE,,/Script/Engine.Blueprint'/Game/Weapons/TwoHand/CS_TwoHand.CS_TwoHand_C',/Script/Engine.ParticleSystem'/Game/Effects/P_ky_hit_fire.P_ky_hit_fire',"(X=0,Y=0,Z=200)","(X=1,Y=1,Z=1)",0.1,100
