@@ -3666,3 +3666,733 @@ Script call stack:
 [2023.09.16-18.31.03:053][655]LogSlate: Window 'M_Cursor_Inst' being destroyed
 [2023.09.16-18.31.03:071][655]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
 [2023.09.16-18.31.03:071][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.16-18.34.32:028][315]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Weapons/Warp/Weapon_Warp.Weapon_Warp
+[2023.09.16-18.34.32:028][315]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.16-18.34.32:028][315]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.16-18.35.05:306][110]LogViewport: Scene viewport resized to 1082x691, mode Windowed.
+[2023.09.16-18.35.26:295][577]BlueprintLog: New page: Weapon_Warp 컴파일
+[2023.09.16-18.35.26:339][577]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.09.16-18.36.41:776][630]BlueprintLog: New page: Weapon_Warp 컴파일
+[2023.09.16-18.36.41:819][630]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.09.16-18.36.43:763][731]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2023.09.16-18.36.43:771][731]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.16-18.36.43:771][731]PIE: New page: PIE 세션: Level (2023. 9. 17. 오후 12:36:43)
+[2023.09.16-18.36.43:771][731]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Level
+[2023.09.16-18.36.43:774][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002776s)
+[2023.09.16-18.36.43:774][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Level.Level to /Game/Map/UEDPIE_0_Level.Level (0.002829s)
+[2023.09.16-18.36.43:774][731]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.16-18.36.43:774][731]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.16-18.36.43:774][731]LogAIModule: Creating AISystem for world Level
+[2023.09.16-18.36.43:775][731]LogPlayLevel: PIE: World Init took: (0.001042s)
+[2023.09.16-18.36.43:801][731]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.09.16-18.36.43:803][731]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.09.16-18.36.43:804][731]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.16-18.36.43:804][731]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.16-18.36.43:804][731]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.16-18.36.43:804][731]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.16-18.36.43:804][731]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.16-18.36.43:804][731]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.16-18.36.43:804][731]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.16-18.36.43:804][731]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.16-18.36.43:804][731]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.16-18.36.43:804][731]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.16-18.36.43:804][731]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.16-18.36.43:807][731]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.16-18.36.43:837][731]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2023.09.16-18.36.43:838][731]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.16-18.36.43:838][731]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.16-18.36.43:838][731]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.16-18.36.43:839][731]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.09.16-18.36.43:839][731]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.09.16-18.36.43:841][731]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.09.16-18.36.43:841][731]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.09.16-18.36.43:841][731]LogInit: FAudioDevice initialized with ID 14.
+[2023.09.16-18.36.43:841][731]LogAudio: Display: Audio Device (ID: 14) registered with world 'Level'.
+[2023.09.16-18.36.43:841][731]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2023.09.16-18.36.43:848][731]LogLoad: Game class is 'BP_GameMode_C'
+[2023.09.16-18.36.43:850][731]LogWorld: Bringing World /Game/Map/UEDPIE_0_Level.Level up for play (max tick rate 60) at 2023.09.17-03.36.43
+[2023.09.16-18.36.43:850][731]LogWorld: Bringing up level for play took: 0.002024
+[2023.09.16-18.36.43:854][731]LogOnline: OSS: Created online subsystem instance for: :Context_77
+[2023.09.16-18.36.43:859][731]PIE: 서버가 로그인했습니다.
+[2023.09.16-18.36.43:860][731]PIE: 에디터에서 플레이 총 시작 시간 0.09초입니다.
+[2023.09.16-18.36.43:971][731]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.36.43:972][731]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.36.43:973][731]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.36.43:973][731]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.36.43:974][731]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.36.43:974][731]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.36.43:975][731]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.36.43:976][731]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.36.49:549][ 64]LogParticles: GameplayStatics::SpawnEmitterAttached spawned potentially immortal particle system! /Game/Map/UEDPIE_0_Level.Level:PersistentLevel.BP_Player_C_0.ParticleSystemComponent_0 (/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/3dParticleOpacity_Particle.3dParticleOpacity_Particle) may stay in world despite never spawning particles after burst spawning is over.
+[2023.09.16-18.36.55:516][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.16-18.36.55:516][335]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Level
+[2023.09.16-18.36.55:516][335]LogWorld: UWorld::CleanupWorld for Level, bSessionEnded=true, bCleanupResources=true
+[2023.09.16-18.36.55:517][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.16-18.36.55:521][335]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.16-18.36.55:526][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.16-18.36.55:547][335]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.16-18.36.55:547][335]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2023.09.16-18.36.55:547][335]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.09.16-18.36.55:549][335]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.09.16-18.36.55:556][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.16-18.36.55:559][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.09.16-18.36.55:576][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.36.55:576][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.36.55:577][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.36.55:578][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.36.55:578][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.36.55:579][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.36.55:580][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.36.55:618][338]LogPlayLevel: Display: Destroying online subsystem :Context_77
+[2023.09.16-18.37.03:113][787]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2023.09.16-18.37.03:121][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.16-18.37.03:121][787]PIE: New page: PIE 세션: Level (2023. 9. 17. 오후 12:37:03)
+[2023.09.16-18.37.03:122][787]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Level
+[2023.09.16-18.37.03:124][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002673s)
+[2023.09.16-18.37.03:124][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Level.Level to /Game/Map/UEDPIE_0_Level.Level (0.002708s)
+[2023.09.16-18.37.03:124][787]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.16-18.37.03:124][787]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.16-18.37.03:125][787]LogAIModule: Creating AISystem for world Level
+[2023.09.16-18.37.03:125][787]LogPlayLevel: PIE: World Init took: (0.000927s)
+[2023.09.16-18.37.03:148][787]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.09.16-18.37.03:149][787]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.09.16-18.37.03:149][787]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.16-18.37.03:150][787]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.16-18.37.03:150][787]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.16-18.37.03:150][787]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.16-18.37.03:150][787]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.16-18.37.03:150][787]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.16-18.37.03:150][787]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.16-18.37.03:150][787]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.16-18.37.03:150][787]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.16-18.37.03:150][787]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.16-18.37.03:150][787]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.16-18.37.03:153][787]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.16-18.37.03:180][787]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2023.09.16-18.37.03:181][787]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.16-18.37.03:181][787]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.16-18.37.03:181][787]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.16-18.37.03:182][787]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.09.16-18.37.03:182][787]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.09.16-18.37.03:184][787]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.09.16-18.37.03:184][787]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.09.16-18.37.03:184][787]LogInit: FAudioDevice initialized with ID 15.
+[2023.09.16-18.37.03:184][787]LogAudio: Display: Audio Device (ID: 15) registered with world 'Level'.
+[2023.09.16-18.37.03:184][787]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2023.09.16-18.37.03:187][787]LogLoad: Game class is 'BP_GameMode_C'
+[2023.09.16-18.37.03:189][787]LogWorld: Bringing World /Game/Map/UEDPIE_0_Level.Level up for play (max tick rate 60) at 2023.09.17-03.37.03
+[2023.09.16-18.37.03:189][787]LogWorld: Bringing up level for play took: 0.001842
+[2023.09.16-18.37.03:192][787]LogOnline: OSS: Created online subsystem instance for: :Context_78
+[2023.09.16-18.37.03:196][787]PIE: 서버가 로그인했습니다.
+[2023.09.16-18.37.03:198][787]PIE: 에디터에서 플레이 총 시작 시간 0.076초입니다.
+[2023.09.16-18.37.03:293][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.37.03:294][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.37.03:294][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.37.03:295][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.37.03:295][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.37.03:296][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.37.03:297][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.37.03:298][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.37.42:687][621]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.16-18.37.42:687][621]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Level
+[2023.09.16-18.37.42:687][621]LogWorld: UWorld::CleanupWorld for Level, bSessionEnded=true, bCleanupResources=true
+[2023.09.16-18.37.42:687][621]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.16-18.37.42:690][621]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.16-18.37.42:695][621]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.16-18.37.42:720][621]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.16-18.37.42:720][621]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2023.09.16-18.37.42:720][621]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.09.16-18.37.42:722][621]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.09.16-18.37.42:732][621]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2023.09.16-18.37.42:752][621]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.37.42:753][621]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.37.42:753][621]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.37.42:754][621]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.37.42:754][621]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.37.42:755][621]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.37.42:756][621]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.37.42:765][622]LogPlayLevel: Display: Destroying online subsystem :Context_78
+[2023.09.16-18.37.52:346][913]LogEditorTransaction: Undo X 편집
+[2023.09.16-18.37.52:390][913]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.37.52:391][913]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.37.52:391][913]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.37.52:391][913]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.37.52:392][913]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.37.52:392][913]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.37.52:393][913]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.39.54:170][ 88]BlueprintLog: New page: Weapon_Warp 컴파일
+[2023.09.16-18.39.54:220][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.09.16-18.39.56:556][218]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2023.09.16-18.39.56:564][218]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.16-18.39.56:564][218]PIE: New page: PIE 세션: Level (2023. 9. 17. 오후 12:39:56)
+[2023.09.16-18.39.56:564][218]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Level
+[2023.09.16-18.39.56:567][218]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002618s)
+[2023.09.16-18.39.56:567][218]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Level.Level to /Game/Map/UEDPIE_0_Level.Level (0.002661s)
+[2023.09.16-18.39.56:567][218]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.16-18.39.56:567][218]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.16-18.39.56:568][218]LogAIModule: Creating AISystem for world Level
+[2023.09.16-18.39.56:568][218]LogPlayLevel: PIE: World Init took: (0.001044s)
+[2023.09.16-18.39.56:591][218]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.09.16-18.39.56:594][218]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.09.16-18.39.56:594][218]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.16-18.39.56:594][218]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.16-18.39.56:594][218]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.16-18.39.56:594][218]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.16-18.39.56:594][218]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.16-18.39.56:595][218]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.16-18.39.56:595][218]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.16-18.39.56:595][218]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.16-18.39.56:595][218]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.16-18.39.56:595][218]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.16-18.39.56:595][218]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.16-18.39.56:598][218]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.16-18.39.56:628][218]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2023.09.16-18.39.56:629][218]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.16-18.39.56:629][218]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.16-18.39.56:629][218]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.16-18.39.56:630][218]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.09.16-18.39.56:630][218]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.09.16-18.39.56:632][218]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.09.16-18.39.56:632][218]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.09.16-18.39.56:632][218]LogInit: FAudioDevice initialized with ID 16.
+[2023.09.16-18.39.56:632][218]LogAudio: Display: Audio Device (ID: 16) registered with world 'Level'.
+[2023.09.16-18.39.56:632][218]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2023.09.16-18.39.56:635][218]LogLoad: Game class is 'BP_GameMode_C'
+[2023.09.16-18.39.56:637][218]LogWorld: Bringing World /Game/Map/UEDPIE_0_Level.Level up for play (max tick rate 60) at 2023.09.17-03.39.56
+[2023.09.16-18.39.56:637][218]LogWorld: Bringing up level for play took: 0.001989
+[2023.09.16-18.39.56:640][218]LogOnline: OSS: Created online subsystem instance for: :Context_79
+[2023.09.16-18.39.56:645][218]PIE: 서버가 로그인했습니다.
+[2023.09.16-18.39.56:646][218]PIE: 에디터에서 플레이 총 시작 시간 0.082초입니다.
+[2023.09.16-18.39.56:754][218]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.39.56:755][218]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.39.56:755][218]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.39.56:756][218]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.39.56:757][218]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.39.56:757][218]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.39.56:759][218]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.39.56:760][218]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.40.49:987][690]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.16-18.40.49:987][690]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Level
+[2023.09.16-18.40.49:987][690]LogWorld: UWorld::CleanupWorld for Level, bSessionEnded=true, bCleanupResources=true
+[2023.09.16-18.40.49:988][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.16-18.40.49:991][690]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.16-18.40.49:996][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.16-18.40.50:019][690]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.16-18.40.50:019][690]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2023.09.16-18.40.50:019][690]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.09.16-18.40.50:021][690]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.09.16-18.40.50:026][690]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.16-18.40.50:029][690]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.09.16-18.40.50:068][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.40.50:069][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.40.50:069][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.40.50:070][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.40.50:070][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.40.50:071][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.40.50:072][690]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.40.50:080][691]LogPlayLevel: Display: Destroying online subsystem :Context_79
+[2023.09.16-18.41.33:138][536]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.09.16-18.41.33:144][536]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.16-18.41.33:190][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Warp/Weapon_Warp" FILE="../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Content/Weapons/Warp/Weapon_Warp.uasset" SILENT=true
+[2023.09.16-18.41.33:197][536]LogSavePackage: Moving output files for package: /Game/Weapons/Warp/Weapon_Warp
+[2023.09.16-18.41.33:198][536]LogSavePackage: Moving '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Saved/Weapon_Warp6765EDE6498CB04D060D27BC0F121DBC.tmp' to '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Content/Weapons/Warp/Weapon_Warp.uasset'
+[2023.09.16-18.41.33:210][536]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 2.81 sec)
+[2023.09.16-18.41.33:215][536]AssetCheck: New page: 에셋 저장:  Weapon_Warp
+[2023.09.16-18.41.33:216][536]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Weapons/Warp/Weapon_Warp.Weapon_Warp 유효성 검사 중
+[2023.09.16-18.42.01:694][743]BlueprintLog: New page: Weapon_Warp 컴파일
+[2023.09.16-18.42.01:735][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.09.16-18.45.04:142][610]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.09.16-18.45.04:146][610]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.16-18.45.04:179][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Warp/Weapon_Warp" FILE="../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Content/Weapons/Warp/Weapon_Warp.uasset" SILENT=true
+[2023.09.16-18.45.04:190][610]LogSavePackage: Moving output files for package: /Game/Weapons/Warp/Weapon_Warp
+[2023.09.16-18.45.04:191][610]LogSavePackage: Moving '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Saved/Weapon_Warp4F998E16485548E53882F789126A44CF.tmp' to '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Content/Weapons/Warp/Weapon_Warp.uasset'
+[2023.09.16-18.45.04:202][610]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 2.86 sec)
+[2023.09.16-18.45.04:210][610]AssetCheck: New page: 에셋 저장:  Weapon_Warp
+[2023.09.16-18.45.04:210][610]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Weapons/Warp/Weapon_Warp.Weapon_Warp 유효성 검사 중
+[2023.09.16-18.45.04:627][635]BlueprintLog: New page: Weapon_Warp 컴파일
+[2023.09.16-18.45.04:669][635]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.09.16-18.45.07:173][781]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2023.09.16-18.45.07:181][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.16-18.45.07:181][781]PIE: New page: PIE 세션: Level (2023. 9. 17. 오후 12:45:07)
+[2023.09.16-18.45.07:181][781]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Level
+[2023.09.16-18.45.07:184][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002678s)
+[2023.09.16-18.45.07:184][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Level.Level to /Game/Map/UEDPIE_0_Level.Level (0.002716s)
+[2023.09.16-18.45.07:184][781]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.16-18.45.07:184][781]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.16-18.45.07:185][781]LogAIModule: Creating AISystem for world Level
+[2023.09.16-18.45.07:185][781]LogPlayLevel: PIE: World Init took: (0.001047s)
+[2023.09.16-18.45.07:209][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.09.16-18.45.07:211][781]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.09.16-18.45.07:211][781]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.16-18.45.07:211][781]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.16-18.45.07:211][781]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.16-18.45.07:211][781]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.16-18.45.07:211][781]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.16-18.45.07:211][781]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.16-18.45.07:211][781]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.16-18.45.07:211][781]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.16-18.45.07:212][781]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.16-18.45.07:212][781]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.16-18.45.07:212][781]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.16-18.45.07:214][781]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.16-18.45.07:244][781]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2023.09.16-18.45.07:244][781]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.16-18.45.07:244][781]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.16-18.45.07:244][781]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.16-18.45.07:245][781]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.09.16-18.45.07:245][781]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.09.16-18.45.07:248][781]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.09.16-18.45.07:248][781]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.09.16-18.45.07:248][781]LogInit: FAudioDevice initialized with ID 17.
+[2023.09.16-18.45.07:248][781]LogAudio: Display: Audio Device (ID: 17) registered with world 'Level'.
+[2023.09.16-18.45.07:248][781]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2023.09.16-18.45.07:251][781]LogLoad: Game class is 'BP_GameMode_C'
+[2023.09.16-18.45.07:253][781]LogWorld: Bringing World /Game/Map/UEDPIE_0_Level.Level up for play (max tick rate 60) at 2023.09.17-03.45.07
+[2023.09.16-18.45.07:253][781]LogWorld: Bringing up level for play took: 0.001937
+[2023.09.16-18.45.07:256][781]LogOnline: OSS: Created online subsystem instance for: :Context_80
+[2023.09.16-18.45.07:260][781]PIE: 서버가 로그인했습니다.
+[2023.09.16-18.45.07:262][781]PIE: 에디터에서 플레이 총 시작 시간 0.081초입니다.
+[2023.09.16-18.45.07:366][781]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.45.07:366][781]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.45.07:367][781]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.45.07:368][781]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.45.07:368][781]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.45.07:369][781]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.45.07:369][781]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.45.07:371][781]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.45.13:507][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.16-18.45.13:507][136]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Level
+[2023.09.16-18.45.13:508][136]LogWorld: UWorld::CleanupWorld for Level, bSessionEnded=true, bCleanupResources=true
+[2023.09.16-18.45.13:508][136]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.16-18.45.13:549][136]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.16-18.45.13:554][136]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.16-18.45.13:577][136]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.16-18.45.13:577][136]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2023.09.16-18.45.13:577][136]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.09.16-18.45.13:579][136]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.09.16-18.45.13:584][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.16-18.45.13:587][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.09.16-18.45.13:605][136]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.45.13:606][136]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.45.13:606][136]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.45.13:607][136]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.45.13:607][136]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.45.13:608][136]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.45.13:609][136]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-18.45.13:613][137]LogPlayLevel: Display: Destroying online subsystem :Context_80
+[2023.09.16-18.49.53:482][438]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.09.16-18.49.53:484][438]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/Level' took 0.026
+[2023.09.16-18.49.53:485][438]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Weapons/Warp/Weapon_Warp] ([2] browsable assets)...
+[2023.09.16-18.49.53:485][438]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/Warp/Weapon_Warp]
+[2023.09.16-18.49.53:495][438]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Weapons/Warp/Weapon_Warp_Auto0
+[2023.09.16-18.49.53:495][438]LogSavePackage: Moving '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Saved/Weapon_Warp_Auto0E44ACEE44B8F63DEEF02668EC7B399A5.tmp' to '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Saved/Autosaves/Game/Weapons/Warp/Weapon_Warp_Auto0.uasset'
+[2023.09.16-18.49.53:496][438]LogFileHelpers: Auto-saving content packages took 0.012
+[2023.09.16-18.59.53:982][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.09.16-18.59.53:986][606]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/Level' took 0.028
+[2023.09.16-18.59.53:986][606]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Weapons/Warp/Weapon_Warp] ([2] browsable assets)...
+[2023.09.16-18.59.53:986][606]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/Warp/Weapon_Warp]
+[2023.09.16-18.59.53:997][606]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Weapons/Warp/Weapon_Warp_Auto1
+[2023.09.16-18.59.53:997][606]LogSavePackage: Moving '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Saved/Weapon_Warp_Auto13788616849A15D64F1791A8B678BFDBD.tmp' to '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Saved/Autosaves/Game/Weapons/Warp/Weapon_Warp_Auto1.uasset'
+[2023.09.16-18.59.53:998][606]LogFileHelpers: Auto-saving content packages took 0.013
+[2023.09.16-19.16.50:626][655]LogDerivedDataCache: C:/Users/tntng/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.185 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5116 files in 6633 folders with total size 396 MiB.
+[2023.09.16-19.29.57:639][703]BlueprintLog: New page: Weapon_Warp 컴파일
+[2023.09.16-19.29.57:688][703]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2023.09.16-19.30.02:547][852]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Weapons/Weapon.Weapon
+[2023.09.16-19.30.02:548][852]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.16-19.30.02:548][852]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.16-19.33.19:630][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.09.16-19.33.19:634][997]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/Level' took 0.033
+[2023.09.16-19.33.19:635][997]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Weapons/Weapon] ([2] browsable assets)...
+[2023.09.16-19.33.19:635][997]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/Weapon]
+[2023.09.16-19.33.19:665][997]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Weapons/Weapon_Auto2
+[2023.09.16-19.33.19:667][997]LogSavePackage: Moving '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Saved/Weapon_Auto2CEC25D3946AC764733384E997D4F62A5.tmp' to '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Saved/Autosaves/Game/Weapons/Weapon_Auto2.uasset'
+[2023.09.16-19.33.19:669][997]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Weapons/Warp/Weapon_Warp] ([2] browsable assets)...
+[2023.09.16-19.33.19:669][997]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/Warp/Weapon_Warp]
+[2023.09.16-19.33.19:680][997]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Weapons/Warp/Weapon_Warp_Auto2
+[2023.09.16-19.33.19:680][997]LogSavePackage: Moving '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Saved/Weapon_Warp_Auto22D35BE474F057BBBB7B901B08C2D4738.tmp' to '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Saved/Autosaves/Game/Weapons/Warp/Weapon_Warp_Auto2.uasset'
+[2023.09.16-19.33.19:680][997]LogFileHelpers: Auto-saving content packages took 0.046
+[2023.09.16-19.34.00:607][660]BlueprintLog: New page: Weapon 컴파일
+[2023.09.16-19.34.00:721][660]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.09.16-19.36.03:852][387]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.09.16-19.36.03:857][387]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.16-19.36.03:890][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon" FILE="../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Content/Weapons/Weapon.uasset" SILENT=true
+[2023.09.16-19.36.03:916][387]LogSavePackage: Moving output files for package: /Game/Weapons/Weapon
+[2023.09.16-19.36.03:917][387]LogSavePackage: Moving '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Saved/WeaponA47F35FE445FD2DF38544AB9223D046E.tmp' to '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Content/Weapons/Weapon.uasset'
+[2023.09.16-19.36.03:920][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Warp/Weapon_Warp" FILE="../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Content/Weapons/Warp/Weapon_Warp.uasset" SILENT=true
+[2023.09.16-19.36.03:932][387]LogSavePackage: Moving output files for package: /Game/Weapons/Warp/Weapon_Warp
+[2023.09.16-19.36.03:933][387]LogSavePackage: Moving '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Saved/Weapon_Warp0DD05D904BB415B1EAE299957EBA90AC.tmp' to '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Content/Weapons/Warp/Weapon_Warp.uasset'
+[2023.09.16-19.36.03:945][387]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 2.95 sec)
+[2023.09.16-19.36.03:951][387]AssetCheck: New page: 에셋 저장:  다수의 에셋
+[2023.09.16-19.36.03:951][387]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Weapons/Weapon.Weapon 유효성 검사 중
+[2023.09.16-19.36.03:951][387]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Weapons/Warp/Weapon_Warp.Weapon_Warp 유효성 검사 중
+[2023.09.16-19.37.01:908][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.09.16-19.37.01:914][809]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.16-19.37.01:944][809]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Warp/Weapon_Warp" FILE="../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Content/Weapons/Warp/Weapon_Warp.uasset" SILENT=true
+[2023.09.16-19.37.01:957][809]LogSavePackage: Moving output files for package: /Game/Weapons/Warp/Weapon_Warp
+[2023.09.16-19.37.01:958][809]LogSavePackage: Moving '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Saved/Weapon_WarpDB62A67C432AE58CF078DFB67319F898.tmp' to '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Content/Weapons/Warp/Weapon_Warp.uasset'
+[2023.09.16-19.37.01:971][809]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 3.01 sec)
+[2023.09.16-19.37.01:977][809]AssetCheck: New page: 에셋 저장:  Weapon_Warp
+[2023.09.16-19.37.01:977][809]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Weapons/Warp/Weapon_Warp.Weapon_Warp 유효성 검사 중
+[2023.09.16-19.37.24:367][ 69]LogSlate: Took 0.005898 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.09.16-19.37.31:553][423]LogSlate: Window '변수 타입 변경' being destroyed
+[2023.09.16-19.38.27:362][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.09.16-19.38.27:367][780]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.16-19.38.27:405][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Warp/Weapon_Warp" FILE="../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Content/Weapons/Warp/Weapon_Warp.uasset" SILENT=true
+[2023.09.16-19.38.27:417][780]LogSavePackage: Moving output files for package: /Game/Weapons/Warp/Weapon_Warp
+[2023.09.16-19.38.27:418][780]LogSavePackage: Moving '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Saved/Weapon_Warp8276D7FC4FE8CA3151CCAB8BFD4653F5.tmp' to '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Content/Weapons/Warp/Weapon_Warp.uasset'
+[2023.09.16-19.38.27:432][780]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 3.07 sec)
+[2023.09.16-19.38.27:438][780]AssetCheck: New page: 에셋 저장:  Weapon_Warp
+[2023.09.16-19.38.27:438][780]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Weapons/Warp/Weapon_Warp.Weapon_Warp 유효성 검사 중
+[2023.09.16-19.41.38:166][276]BlueprintLog: New page: Weapon_Warp 컴파일
+[2023.09.16-19.41.38:216][276]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2023.09.16-19.41.38:606][295]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.09.16-19.41.38:611][295]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.16-19.41.38:653][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Warp/Weapon_Warp" FILE="../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Content/Weapons/Warp/Weapon_Warp.uasset" SILENT=true
+[2023.09.16-19.41.38:667][295]LogSavePackage: Moving output files for package: /Game/Weapons/Warp/Weapon_Warp
+[2023.09.16-19.41.38:668][295]LogSavePackage: Moving '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Saved/Weapon_Warp3E7261C24098D428802BDE9AA8F5F190.tmp' to '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Content/Weapons/Warp/Weapon_Warp.uasset'
+[2023.09.16-19.41.38:683][295]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 3.14 sec)
+[2023.09.16-19.41.38:688][295]AssetCheck: New page: 에셋 저장:  Weapon_Warp
+[2023.09.16-19.41.38:688][295]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Weapons/Warp/Weapon_Warp.Weapon_Warp 유효성 검사 중
+[2023.09.16-20.00.04:857][904]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.09.16-20.00.04:859][904]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/Level' took 0.032
+[2023.09.16-20.00.04:860][904]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Weapons/Warp/Weapon_Warp] ([2] browsable assets)...
+[2023.09.16-20.00.04:860][904]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/Warp/Weapon_Warp]
+[2023.09.16-20.00.04:876][904]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Weapons/Warp/Weapon_Warp_Auto3
+[2023.09.16-20.00.04:876][904]LogSavePackage: Moving '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Saved/Weapon_Warp_Auto36CCBEE9D488D81EFBCDB1B8EB1A96D2B.tmp' to '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Saved/Autosaves/Game/Weapons/Warp/Weapon_Warp_Auto3.uasset'
+[2023.09.16-20.00.04:878][904]LogFileHelpers: Auto-saving content packages took 0.018
+[2023.09.16-20.04.31:982][274]LogEditorTransaction: Undo 노드 이동
+[2023.09.16-20.04.32:037][274]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.04.32:038][274]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.04.32:039][274]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.04.32:040][274]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.04.32:040][274]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.04.32:041][274]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.04.32:044][274]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.04.32:292][282]LogEditorTransaction: Undo 노드 이동
+[2023.09.16-20.04.32:335][282]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.04.32:336][282]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.04.32:336][282]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.04.32:337][282]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.04.32:337][282]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.04.32:338][282]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.04.32:339][282]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.05.58:454][790]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.09.16-20.05.58:457][790]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.16-20.05.58:501][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Warp/Weapon_Warp" FILE="../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Content/Weapons/Warp/Weapon_Warp.uasset" SILENT=true
+[2023.09.16-20.05.58:517][790]LogSavePackage: Moving output files for package: /Game/Weapons/Warp/Weapon_Warp
+[2023.09.16-20.05.58:518][790]LogSavePackage: Moving '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Saved/Weapon_WarpF140EB574F517E07E8D685AFC507BAE1.tmp' to '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Content/Weapons/Warp/Weapon_Warp.uasset'
+[2023.09.16-20.05.58:536][790]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 3.22 sec)
+[2023.09.16-20.05.58:542][790]AssetCheck: New page: 에셋 저장:  Weapon_Warp
+[2023.09.16-20.05.58:542][790]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Weapons/Warp/Weapon_Warp.Weapon_Warp 유효성 검사 중
+[2023.09.16-20.10.05:443][611]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.09.16-20.10.05:445][611]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/Level' took 0.026
+[2023.09.16-20.10.05:446][611]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Weapons/Warp/Weapon_Warp] ([2] browsable assets)...
+[2023.09.16-20.10.05:446][611]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/Warp/Weapon_Warp]
+[2023.09.16-20.10.05:462][611]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Weapons/Warp/Weapon_Warp_Auto4
+[2023.09.16-20.10.05:462][611]LogSavePackage: Moving '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Saved/Weapon_Warp_Auto45F280133415CF30FAF06A1A945283773.tmp' to '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Saved/Autosaves/Game/Weapons/Warp/Weapon_Warp_Auto4.uasset'
+[2023.09.16-20.10.05:463][611]LogFileHelpers: Auto-saving content packages took 0.018
+[2023.09.16-20.13.21:657][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.09.16-20.13.21:663][ 94]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.16-20.13.21:702][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Warp/Weapon_Warp" FILE="../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Content/Weapons/Warp/Weapon_Warp.uasset" SILENT=true
+[2023.09.16-20.13.21:720][ 94]LogSavePackage: Moving output files for package: /Game/Weapons/Warp/Weapon_Warp
+[2023.09.16-20.13.21:721][ 94]LogSavePackage: Moving '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Saved/Weapon_Warp1F98EF0C4A31F2343A3E72970A9B84A5.tmp' to '../../../../../../Users/tntng/Documents/Unreal Projects/MyProjects02/Content/Weapons/Warp/Weapon_Warp.uasset'
+[2023.09.16-20.13.21:736][ 94]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 3.30 sec)
+[2023.09.16-20.13.21:742][ 94]AssetCheck: New page: 에셋 저장:  Weapon_Warp
+[2023.09.16-20.13.21:742][ 94]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Weapons/Warp/Weapon_Warp.Weapon_Warp 유효성 검사 중
+[2023.09.16-20.13.22:000][109]BlueprintLog: New page: Weapon_Warp 컴파일
+[2023.09.16-20.13.22:053][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.09.16-20.13.49:270][827]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2023.09.16-20.13.49:280][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.16-20.13.49:280][827]PIE: New page: PIE 세션: Level (2023. 9. 17. 오후 2:13:49)
+[2023.09.16-20.13.49:280][827]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Level
+[2023.09.16-20.13.49:284][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003611s)
+[2023.09.16-20.13.49:284][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Level.Level to /Game/Map/UEDPIE_0_Level.Level (0.003691s)
+[2023.09.16-20.13.49:284][827]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.16-20.13.49:284][827]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.16-20.13.49:285][827]LogAIModule: Creating AISystem for world Level
+[2023.09.16-20.13.49:286][827]LogPlayLevel: PIE: World Init took: (0.001461s)
+[2023.09.16-20.13.49:311][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.09.16-20.13.49:313][827]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.09.16-20.13.49:313][827]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.16-20.13.49:313][827]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.16-20.13.49:313][827]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.16-20.13.49:314][827]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.16-20.13.49:314][827]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.16-20.13.49:314][827]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.16-20.13.49:314][827]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.16-20.13.49:314][827]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.16-20.13.49:314][827]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.16-20.13.49:314][827]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.16-20.13.49:314][827]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.16-20.13.49:317][827]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.16-20.13.49:346][827]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2023.09.16-20.13.49:347][827]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.16-20.13.49:347][827]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.16-20.13.49:347][827]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.16-20.13.49:348][827]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.09.16-20.13.49:348][827]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2023.09.16-20.13.49:350][827]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.09.16-20.13.49:350][827]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2023.09.16-20.13.49:350][827]LogInit: FAudioDevice initialized with ID 18.
+[2023.09.16-20.13.49:350][827]LogAudio: Display: Audio Device (ID: 18) registered with world 'Level'.
+[2023.09.16-20.13.49:350][827]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2023.09.16-20.13.49:358][827]LogLoad: Game class is 'BP_GameMode_C'
+[2023.09.16-20.13.49:360][827]LogWorld: Bringing World /Game/Map/UEDPIE_0_Level.Level up for play (max tick rate 60) at 2023.09.17-05.13.49
+[2023.09.16-20.13.49:361][827]LogWorld: Bringing up level for play took: 0.002906
+[2023.09.16-20.13.49:364][827]LogOnline: OSS: Created online subsystem instance for: :Context_82
+[2023.09.16-20.13.49:370][827]PIE: 서버가 로그인했습니다.
+[2023.09.16-20.13.49:372][827]PIE: 에디터에서 플레이 총 시작 시간 0.092초입니다.
+[2023.09.16-20.13.49:485][827]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.13.49:485][827]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.13.49:486][827]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.13.49:486][827]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.13.49:487][827]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.13.49:488][827]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.13.49:488][827]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.13.49:489][827]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.13.51:454][942]Set new viewmode: Lit_DetailLighting
+[2023.09.16-20.13.56:886][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.16-20.13.56:886][254]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Level
+[2023.09.16-20.13.56:886][254]LogWorld: UWorld::CleanupWorld for Level, bSessionEnded=true, bCleanupResources=true
+[2023.09.16-20.13.56:887][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.16-20.13.56:944][254]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.16-20.13.56:949][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.16-20.13.56:975][254]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.16-20.13.56:975][254]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2023.09.16-20.13.56:975][254]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.09.16-20.13.56:977][254]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.09.16-20.13.56:984][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.16-20.13.56:988][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.09.16-20.13.57:007][254]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.13.57:008][254]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.13.57:008][254]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.13.57:009][254]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.13.57:009][254]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.13.57:010][254]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.13.57:011][254]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.13.57:016][255]LogPlayLevel: Display: Destroying online subsystem :Context_82
+[2023.09.16-20.14.11:689][459]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2023.09.16-20.14.11:698][459]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.16-20.14.11:698][459]PIE: New page: PIE 세션: Level (2023. 9. 17. 오후 2:14:11)
+[2023.09.16-20.14.11:698][459]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Level
+[2023.09.16-20.14.11:702][459]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002637s)
+[2023.09.16-20.14.11:702][459]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Level.Level to /Game/Map/UEDPIE_0_Level.Level (0.002672s)
+[2023.09.16-20.14.11:702][459]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.16-20.14.11:702][459]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.16-20.14.11:702][459]LogAIModule: Creating AISystem for world Level
+[2023.09.16-20.14.11:702][459]LogPlayLevel: PIE: World Init took: (0.000970s)
+[2023.09.16-20.14.11:725][459]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.09.16-20.14.11:727][459]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.09.16-20.14.11:727][459]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.16-20.14.11:727][459]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.16-20.14.11:727][459]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.16-20.14.11:727][459]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.16-20.14.11:727][459]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.16-20.14.11:727][459]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.16-20.14.11:727][459]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.16-20.14.11:727][459]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.16-20.14.11:727][459]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.16-20.14.11:728][459]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.16-20.14.11:728][459]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.16-20.14.11:730][459]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.16-20.14.11:758][459]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2023.09.16-20.14.11:759][459]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.16-20.14.11:759][459]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.16-20.14.11:759][459]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.16-20.14.11:760][459]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.09.16-20.14.11:760][459]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.09.16-20.14.11:762][459]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.09.16-20.14.11:762][459]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.09.16-20.14.11:762][459]LogInit: FAudioDevice initialized with ID 19.
+[2023.09.16-20.14.11:762][459]LogAudio: Display: Audio Device (ID: 19) registered with world 'Level'.
+[2023.09.16-20.14.11:762][459]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2023.09.16-20.14.11:767][459]LogLoad: Game class is 'BP_GameMode_C'
+[2023.09.16-20.14.11:768][459]LogWorld: Bringing World /Game/Map/UEDPIE_0_Level.Level up for play (max tick rate 60) at 2023.09.17-05.14.11
+[2023.09.16-20.14.11:769][459]LogWorld: Bringing up level for play took: 0.001857
+[2023.09.16-20.14.11:771][459]LogOnline: OSS: Created online subsystem instance for: :Context_83
+[2023.09.16-20.14.11:776][459]PIE: 서버가 로그인했습니다.
+[2023.09.16-20.14.11:777][459]PIE: 에디터에서 플레이 총 시작 시간 0.079초입니다.
+[2023.09.16-20.14.11:900][459]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.11:901][459]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.11:901][459]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.11:902][459]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.11:903][459]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.11:903][459]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.11:904][459]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.11:905][459]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.14:559][616]Set new viewmode: Lit_DetailLighting
+[2023.09.16-20.14.16:868][751]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.16:869][751]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.16:869][751]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.16:870][751]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.16:870][751]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.16:870][751]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.17:456][785]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.16-20.14.17:457][785]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Level
+[2023.09.16-20.14.17:457][785]LogWorld: UWorld::CleanupWorld for Level, bSessionEnded=true, bCleanupResources=true
+[2023.09.16-20.14.17:458][785]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.16-20.14.17:512][785]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.16-20.14.17:517][785]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.16-20.14.17:540][785]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.16-20.14.17:540][785]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2023.09.16-20.14.17:540][785]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.09.16-20.14.17:543][785]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.09.16-20.14.17:563][785]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.09.16-20.14.17:581][785]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.17:582][785]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.17:582][785]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.17:583][785]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.17:583][785]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.17:584][785]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.17:585][785]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.17:611][786]LogPlayLevel: Display: Destroying online subsystem :Context_83
+[2023.09.16-20.14.18:144][818]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2023.09.16-20.14.18:152][818]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.16-20.14.18:152][818]PIE: New page: PIE 세션: Level (2023. 9. 17. 오후 2:14:18)
+[2023.09.16-20.14.18:152][818]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Level
+[2023.09.16-20.14.18:155][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002756s)
+[2023.09.16-20.14.18:155][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Level.Level to /Game/Map/UEDPIE_0_Level.Level (0.002805s)
+[2023.09.16-20.14.18:155][818]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.16-20.14.18:155][818]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.16-20.14.18:155][818]LogAIModule: Creating AISystem for world Level
+[2023.09.16-20.14.18:156][818]LogPlayLevel: PIE: World Init took: (0.000938s)
+[2023.09.16-20.14.18:180][818]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.09.16-20.14.18:181][818]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.09.16-20.14.18:181][818]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.16-20.14.18:181][818]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.16-20.14.18:182][818]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.16-20.14.18:182][818]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.16-20.14.18:182][818]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.16-20.14.18:182][818]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.16-20.14.18:182][818]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.16-20.14.18:182][818]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.16-20.14.18:182][818]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.16-20.14.18:182][818]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.16-20.14.18:182][818]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.16-20.14.18:185][818]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.16-20.14.18:212][818]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2023.09.16-20.14.18:212][818]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.16-20.14.18:212][818]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.16-20.14.18:212][818]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.16-20.14.18:213][818]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.09.16-20.14.18:213][818]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.09.16-20.14.18:215][818]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.09.16-20.14.18:215][818]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.09.16-20.14.18:215][818]LogInit: FAudioDevice initialized with ID 20.
+[2023.09.16-20.14.18:215][818]LogAudio: Display: Audio Device (ID: 20) registered with world 'Level'.
+[2023.09.16-20.14.18:215][818]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2023.09.16-20.14.18:219][818]LogLoad: Game class is 'BP_GameMode_C'
+[2023.09.16-20.14.18:220][818]LogWorld: Bringing World /Game/Map/UEDPIE_0_Level.Level up for play (max tick rate 60) at 2023.09.17-05.14.18
+[2023.09.16-20.14.18:221][818]LogWorld: Bringing up level for play took: 0.001813
+[2023.09.16-20.14.18:223][818]LogOnline: OSS: Created online subsystem instance for: :Context_84
+[2023.09.16-20.14.18:228][818]PIE: 서버가 로그인했습니다.
+[2023.09.16-20.14.18:230][818]PIE: 에디터에서 플레이 총 시작 시간 0.078초입니다.
+[2023.09.16-20.14.18:335][818]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.18:336][818]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.18:337][818]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.18:337][818]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.18:338][818]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.18:338][818]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.18:339][818]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.18:341][818]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.26:006][273]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.26:007][273]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.26:007][273]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.26:008][273]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.26:008][273]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.26:009][273]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.27:087][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.16-20.14.27:087][331]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Level
+[2023.09.16-20.14.27:087][331]LogWorld: UWorld::CleanupWorld for Level, bSessionEnded=true, bCleanupResources=true
+[2023.09.16-20.14.27:088][331]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.16-20.14.27:142][331]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.16-20.14.27:148][331]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.16-20.14.27:172][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.16-20.14.27:172][331]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2023.09.16-20.14.27:172][331]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.09.16-20.14.27:173][331]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.09.16-20.14.27:182][331]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.09.16-20.14.27:200][331]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.27:201][331]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.27:202][331]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.27:202][331]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.27:203][331]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.27:204][331]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.27:205][331]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.27:233][332]LogPlayLevel: Display: Destroying online subsystem :Context_84
+[2023.09.16-20.14.36:773][439]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2023.09.16-20.14.36:781][439]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.16-20.14.36:781][439]PIE: New page: PIE 세션: Level (2023. 9. 17. 오후 2:14:36)
+[2023.09.16-20.14.36:782][439]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Level
+[2023.09.16-20.14.36:785][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002738s)
+[2023.09.16-20.14.36:785][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Level.Level to /Game/Map/UEDPIE_0_Level.Level (0.002773s)
+[2023.09.16-20.14.36:785][439]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.16-20.14.36:785][439]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.16-20.14.36:785][439]LogAIModule: Creating AISystem for world Level
+[2023.09.16-20.14.36:786][439]LogPlayLevel: PIE: World Init took: (0.000980s)
+[2023.09.16-20.14.36:811][439]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.09.16-20.14.36:813][439]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.09.16-20.14.36:813][439]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.16-20.14.36:813][439]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.16-20.14.36:813][439]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.16-20.14.36:813][439]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.16-20.14.36:813][439]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.16-20.14.36:813][439]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.16-20.14.36:813][439]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.16-20.14.36:813][439]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.16-20.14.36:813][439]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.16-20.14.36:813][439]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.16-20.14.36:813][439]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.16-20.14.36:815][439]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.16-20.14.36:851][439]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2023.09.16-20.14.36:851][439]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.16-20.14.36:851][439]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.16-20.14.36:851][439]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.16-20.14.36:852][439]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.09.16-20.14.36:852][439]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.09.16-20.14.36:855][439]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.09.16-20.14.36:855][439]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.09.16-20.14.36:855][439]LogInit: FAudioDevice initialized with ID 21.
+[2023.09.16-20.14.36:855][439]LogAudio: Display: Audio Device (ID: 21) registered with world 'Level'.
+[2023.09.16-20.14.36:855][439]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2023.09.16-20.14.36:859][439]LogLoad: Game class is 'BP_GameMode_C'
+[2023.09.16-20.14.36:861][439]LogWorld: Bringing World /Game/Map/UEDPIE_0_Level.Level up for play (max tick rate 60) at 2023.09.17-05.14.36
+[2023.09.16-20.14.36:861][439]LogWorld: Bringing up level for play took: 0.002039
+[2023.09.16-20.14.36:864][439]LogOnline: OSS: Created online subsystem instance for: :Context_85
+[2023.09.16-20.14.36:870][439]PIE: 서버가 로그인했습니다.
+[2023.09.16-20.14.36:871][439]PIE: 에디터에서 플레이 총 시작 시간 0.089초입니다.
+[2023.09.16-20.14.36:991][439]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.36:992][439]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.36:992][439]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.36:993][439]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.36:994][439]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.36:994][439]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.36:995][439]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.36:996][439]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.14.47:246][ 52]LogParticles: GameplayStatics::SpawnEmitterAttached spawned potentially immortal particle system! /Game/Map/UEDPIE_0_Level.Level:PersistentLevel.BP_Player_C_0.ParticleSystemComponent_0 (/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/3dParticleOpacity_Particle.3dParticleOpacity_Particle) may stay in world despite never spawning particles after burst spawning is over.
+[2023.09.16-20.15.01:184][880]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.15.01:185][880]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.15.01:185][880]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.15.01:186][880]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.15.01:186][880]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.15.01:187][880]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.15.02:597][958]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.16-20.15.02:597][958]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Level
+[2023.09.16-20.15.02:598][958]LogWorld: UWorld::CleanupWorld for Level, bSessionEnded=true, bCleanupResources=true
+[2023.09.16-20.15.02:598][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.16-20.15.02:602][958]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.16-20.15.02:608][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.16-20.15.02:632][958]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.16-20.15.02:632][958]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2023.09.16-20.15.02:632][958]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.09.16-20.15.02:634][958]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.09.16-20.15.02:643][958]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.09.16-20.15.02:661][958]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.15.02:662][958]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.15.02:663][958]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.15.02:663][958]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.15.02:664][958]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.15.02:664][958]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.15.02:665][958]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: '' 입력이 비었습니다.
+[2023.09.16-20.15.02:693][959]LogPlayLevel: Display: Destroying online subsystem :Context_85
+[2023.09.16-20.16.50:575][476]LogDerivedDataCache: C:/Users/tntng/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.133 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5116 files in 6633 folders with total size 396 MiB.
