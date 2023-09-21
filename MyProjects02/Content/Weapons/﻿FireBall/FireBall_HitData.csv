@@ -1,0 +1,2 @@
+,Damage,Montage,PlatRatio,CanMove,Sound,ShakeClass,Effect,EffectLocation,EffectSacle,HitStop,Launch
+1,5,/Script/Engine.AnimMontage'/Game/Character/Montages/Common/HitReaction_Montage.HitReaction_Montage',1.5,FALSE,,,,"(X=0,Y=0,Z=0)","(X=1,Y=1,Z=1)",0,0
