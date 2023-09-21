@@ -1,4 +1,2 @@
 ,Damage,Montage,PlatRatio,CanMove,Sound,ShakeClass,Effect,EffectLocation,EffectSacle,HitStop,Launch
-1,5,/Script/Engine.AnimMontage'/Game/Character/Montages/Common/HitReaction_Montage.HitReaction_Montage',1.5,FALSE,/Script/Engine.SoundWave'/Game/Sounds/S_OneHand_Hit.S_OneHand_Hit',,,"(X=0,Y=0,Z=0)","(X=1,Y=1,Z=1)",0.05,100
-2,10,/Script/Engine.AnimMontage'/Game/Character/Montages/Common/HitReaction_Montage.HitReaction_Montage',1.5,FALSE,/Script/Engine.SoundWave'/Game/Sounds/S_OneHand_Hit.S_OneHand_Hit',,,"(X=0,Y=0,Z=0)","(X=1,Y=1,Z=1)",0.075,100
-3,15,/Script/Engine.AnimMontage'/Game/Character/Montages/Common/HitReaction_Montage.HitReaction_Montage',1.5,FALSE,/Script/Engine.SoundWave'/Game/Sounds/S_OneHand_Hit.S_OneHand_Hit',,/Script/Engine.ParticleSystem'/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01',"(X=0,Y=0,Z=200)","(X=1,Y=1,Z=1)",0.1,100
+1,5,/Script/Engine.AnimMontage'/Game/Character/Montages/Common/HitReaction_Montage.HitReaction_Montage',1.5,FALSE,,,,"(X=0,Y=0,Z=0)","(X=1,Y=1,Z=1)",0,0

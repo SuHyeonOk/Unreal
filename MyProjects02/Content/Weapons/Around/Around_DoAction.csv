@@ -1,2 +1,2 @@
 ,Montage,PlayRatio,CanMove,FixedCamera
-1,,1.5,TRUE,FALSE
+1,/Script/Engine.AnimMontage'/Game/Character/Montages/Around/Around_Montage.Around_Montage',1.25,TRUE,FALSE
