@@ -1,0 +1,16 @@
+Type,Montage,PlayRatio,Section,MinDistance,MaxDistance,Extent,FixedCamera
+1,/Script/Engine.AnimSequence'/Game/Character/Animations/Parkour/Run_Climb.Run_Climb',2,,30,150,580,TRUE
+2,,1.25,,150,350,30,TRUE
+3,,1.25,,400,500,80,TRUE
+4,,1.25,,200,350,80,TRUE
+5,,1.25,,150,200,80,TRUE
+6,,1.25,,80,150,80,TRUE
+7,,1.25,,380,600,340,TRUE
+8,,1.25,,250,380,340,TRUE
+9,,1.25,,150,250,340,TRUE
+10,,1.25,,80,150,340,TRUE
+11,,1.25,,350,390,40,TRUE
+12,,1,,200,250,40,TRUE
+13,,1,Start,150,200,40,TRUE
+14,,1,Start,50,150,40,TRUE
+15,,1.25,,700,2000,2000,FALSE
